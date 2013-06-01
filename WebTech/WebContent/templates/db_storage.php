@@ -1,3 +1,5 @@
+<-- speichert Daten in einer SQL DB --></-->
+
 <?php
 
 	$con = mysql_connect("localhost", "peter", "abs123");
