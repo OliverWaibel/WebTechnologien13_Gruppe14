@@ -1,4 +1,4 @@
-<-- legt Datenbank und die Tabelle an --></-->
+<!-- legt Datenbank und die Tabelle an -->
 
 <?php
 

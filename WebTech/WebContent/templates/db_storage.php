@@ -1,4 +1,4 @@
-<-- speichert Daten in einer SQL DB --></-->
+<!-- speichert Daten in einer SQL DB -->
 
 <?php
 

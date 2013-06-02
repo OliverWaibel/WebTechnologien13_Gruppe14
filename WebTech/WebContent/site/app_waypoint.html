@@ -133,7 +133,6 @@
 				<br />
 			    <h2>Wetterinformationen</h2>
 			    <br />
-			    <form action="db_storage.php" method="post">
 			    <div class="container-fluid" align="center">
 	            	<form class="form-horizontal"> 
 						<!-- Hier kann man auf row-fluid ändern, damit es auf 12 Spalten gesetzt wird-->
@@ -201,23 +200,24 @@
 			                    
 			                    <div class="control-group">
 								
-									<!-- DateTimePicker JQuery-->
+									
 			                    	<label class="control-label">Uhrzeit der Aufzeichnung</label>
-			            			<input class="input-medium" type="Recordate" id="recordTime"/>
-			                    </div>                   
+			            			<input class="input-medium" name="Recordate" id="recordTime"/>
+			                    </div>
+			                    <form><button>Aufzeichnung speichern</button></form>              
 		            		</div>
 							<div class="span4">
 		            			<div class="control-group">
+		            				<!-- DateTimePicker JQuery-->
 			            			<label class="control-label">Datum der Aufzeichnung</label>
 			            			<input class="input-medium" type="date" id="recordDate"/>
 			                    </div>
-			        
+			        			<form><button>Aufzeichnung laden</button></form> 
 		            		</div>
 		            		
 		            	</div>    
 					</form>
 	            </div>
-			</form>
 			    <div class="container" align="center">
 			    <div class="row" style="margin-left:5%;">
 			        <div class="span4" id="appNotes">

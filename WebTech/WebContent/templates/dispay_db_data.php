@@ -1,4 +1,4 @@
-<-- holt Daten aus der SQL DB in ein Array --></-->
+<!-- holt Daten aus der SQL DB in ein Array -->
 
 <?php
     $con = mysql_connect("localhost", "peter", "abc123");
